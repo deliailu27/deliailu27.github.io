@@ -35,7 +35,7 @@ function App() {
       <main className="Main-content">
         <section className="Page-left">
           <div className='Intro'>
-          <h1> </h1>
+          <h1>Hey there!  </h1>
           <br/><br/>
           <p>
             My name is Delia.
