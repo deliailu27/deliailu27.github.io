@@ -15,7 +15,7 @@
 }
 
 .App-header {
-  background-color: rgba(38, 43, 30, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   
   display: flex;
   justify-content: space-between;
@@ -29,10 +29,13 @@
   font-family: "Averia Serif Libre", serif;
   font-weight: 700;
   font-style: normal;
+  color: #ffffff;
 }
 
 .App-header:hover {
-  background-color: rgba(38, 43, 30, 0.8);
+  background-color: rgba(247, 167, 208, 0.8);
+  
+  
  
 }
 
@@ -86,9 +89,10 @@ nav ul li a:hover{
 
 
 .Main-content {
-  
+  height: 100vh;
   display: flex;
-  background-color: rgb(210, 206, 198);
+  background-image: url('../public/background.jpg');
+  background-size: cover;
   flex-direction: row;
   justify-content:flex-end;
   padding-left: 10vw;
@@ -101,11 +105,12 @@ nav ul li a:hover{
 }
 
 .Intro {
-  width: 70%;
-  margin-top: 30%;
+  color:aliceblue;
+  width:50%;
+  margin-top: 20%;
   text-align:justify;
 
-  border-left: 1px solid #000; 
+  border-left: 1px solid #ffffff; 
   padding-left: 20px; 
   margin-left: 20px; 
 
@@ -121,13 +126,7 @@ h1 {
 
 
 
-.Hero-image {
-  width: 100%;
-  height: 100vh; 
-  background-size: cover;
-  background-position: center;
-  background-image: url('../public/background.jpg');
-}
+
 
 /* Responsive design adjustments */
 @media (max-width: 768px) {

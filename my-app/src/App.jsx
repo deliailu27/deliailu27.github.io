@@ -35,17 +35,18 @@ function App() {
       <main className="Main-content">
         <section className="Page-left">
           <div className='Intro'>
-          <h1>Hey there!  </h1>
+          <h1>Hello and welcome
+             </h1>
           <br/><br/>
           <p>
             My name is Delia.
             <br/><br/>
              I am{' '}
-            <span style={{color:"#262b1e",fontWeight:"700"}}>
+            <span style={{color:'white',fontWeight:"700",cursor:'pointer',textDecoration:"underline"}}>
             a philosophy graduate student 
             </span>
             {' '}and {' '}
-            <span style={{color:"#262b1e",fontWeight:"700"}}>a software developer</span>. 
+            <span style={{color:'white',fontWeight:"700",cursor:'pointer',textDecoration:"underline"}}>a software developer</span>. 
             <br/><br/>
             Before joining Carnegie Mellon University, I received my MSc in Philosophy of Science from the LSE and BA in Philosophy from the University of Sheffield.  For my graduate and undergraduate theses, I wrote about mental imagery and reductionism. 
             <br/><br/>
@@ -53,7 +54,7 @@ function App() {
             <br/><br/>
             As a developer, I specialize in both front-end and back-end development, primarily using Python and JavaScript.
             <br/><br/>
-            I live in London with my husband and two cats.
+           
           </p>
           </div>
           <div className='Social-buttons'>
@@ -67,13 +68,13 @@ function App() {
               </ul>
           </div>
         </section>
-        <section className="Hero-image"></section>
+        
       </main>
       <footer className="App-footer">
     <p>© {new Date().getFullYear()} Delia Y Liu. All Rights Reserved. </p>
     <p className="Image-credit">
-    Photo by <a href="https://www.pexels.com/@mathias-reding-2334615" target="_blank" rel="noopener noreferrer">Mathias Reding</a> on 
-    <a href="https://www.pexels.com/photo/dwarf-statuette-on-stump-near-bright-maple-leaves-on-meadow-5662144/" target="_blank" rel="noopener noreferrer">Pexels</a>
+    Photo by <a href="https://unsplash.com/@jonnyuiux?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jonny Caspari</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-diamond-on-a-blurry-background-_XREEr4aw_Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
   </p>
       
     </footer>
@@ -84,3 +85,4 @@ function App() {
 }
 
 export default App;
+
