@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Zhi+Mang+Xing&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: rgba(255, 255, 255, 0.2);
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.Title p{
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.App-header:hover {
+  background-color: rgba(247, 167, 208, 0.8);
+  
+  
+ 
+}
+
+nav ul {
+  color: white;
+  padding-right: 30px;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+nav ul li {
+  
+  
+  margin-left: 20px;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+}
+
+nav ul li a:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+
+.Social-buttons {
+  display: flex;
+  justify-content:flex-start;
+  margin-top: 5rem;
+}
+
+.Social-buttons li {
+  display: inline-block;
+  margin-right: 15px; 
+  width: 24px;
+  height: auto;
+}
+
+.Social-buttons li:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+
+
+.Main-content {
+  height: 100vh;
+  display: flex;
+  background-image: url('../public/background.jpg');
+  background-size: cover;
+  flex-direction: row;
+  justify-content:flex-end;
+  padding-left: 10vw;
+  
+}
+
+.Page-left {
+  
+  width: 100vw;
+}
+
+.Intro {
+  color:aliceblue;
+  width:50%;
+  margin-top: 20%;
+  text-align:justify;
+
+  border-left: 1px solid #ffffff; 
+  padding-left: 20px; 
+  margin-left: 20px; 
+
+}
+
+h1 {
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
+  
+}
+
+
+
+
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+
+  .App-header{
+    color: aliceblue;
+  }
+  .Main-content {
+    
+    flex-direction: column;
+    background-image: url('../public/background.jpg');
+    background-size: cover;
+  }
+
+  .Intro{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    border-radius: 3%;
+  }
+
+  .Social-buttons{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .Self-intro, .Hero-image {
+    flex-basis: 90%;
+   
+  }
+
+  nav ul {
+    flex-direction: row;
+    align-items: center;
+  }
+
+}
+
+
+.App-footer {
+  text-align: center;
+  padding: 10px;
+ 
+  color:black;
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+}
+
+.App-footer p {
+  margin: 5px 0;
+  font-size: 0.8em;
+  
+}
